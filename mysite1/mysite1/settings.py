@@ -23,10 +23,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-gq)hyv_z5$5a_*1r*_x7y7poy&cwh-#egkivmq1frlr*zjjv6u'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['*', 'CLwebapp1.azurewebsites.net']
 
+CSRF_TRUSTED_ORIGINS = ['https://clwebapp1.azurewebsites.net']
 
 # Application definition
 
