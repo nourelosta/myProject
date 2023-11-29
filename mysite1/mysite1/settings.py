@@ -25,9 +25,9 @@ SECRET_KEY = 'django-insecure-gq)hyv_z5$5a_*1r*_x7y7poy&cwh-#egkivmq1frlr*zjjv6u
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*', 'CLwebapp1.azurewebsites.net']
+ALLOWED_HOSTS = ['*', 'CLwebapp12.azurewebsites.net']
 
-CSRF_TRUSTED_ORIGINS = ['https://clwebapp1.azurewebsites.net']
+CSRF_TRUSTED_ORIGINS = ['https://clwebapp12.azurewebsites.net']
 
 # Application definition
 
